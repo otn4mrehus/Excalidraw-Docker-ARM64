@@ -8,10 +8,10 @@ cd Excalidraw-Docker-ARM64
 ````
 ## Build Container
 ````
-docker-compose 'excalidraw' up --build -d --remove-orphans ## Build Container 
-docker-compose 'excalidraw' down -v --remove-orphans       ## Remove Container
-docker-compose 'excalidraw' start     ## Start Container
-docker-compose 'excalidraw' stop      ## Stop Container
+docker-compose -p 'excalidraw' up --build -d --remove-orphans ## Build Container 
+docker-compose -p 'excalidraw' down -v --remove-orphans       ## Remove Container
+docker-compose -p 'excalidraw' start     ## Start Container
+docker-compose -p 'excalidraw' stop      ## Stop Container
 ````
 ## Run Excalidraw
 ````
