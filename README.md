@@ -2,8 +2,8 @@
 Excalidraw Docker Compose For  ARM64 [Tested:  Armbian 23.08.0-trunk Bookworm with Linux 6.1.52-ophub]
 ## Download
 ````
-apt install git \
-gic clone https://github.com/otn4mrehus/Excalidraw-Docker-ARM64/.git
+apt install git && \
+git clone https://github.com/otn4mrehus/Excalidraw-Docker-ARM64.git && \
 cd Excalidraw-Docker-ARM64
 ````
 ## Build Container
